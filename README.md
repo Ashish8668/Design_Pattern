@@ -20,14 +20,6 @@ This project demonstrates how to structure simple device classes and apply the F
 **Clone the repository**
 Use the repository URL to clone locally (replace the URL if your repo is hosted somewhere else):
 
-> Note: the small "Copy" buttons below use JavaScript. GitHub strips scripts from README rendering, so the buttons will work in VS Code's Markdown preview or other renderers that allow scripts. A plain code fallback is provided for GitHub.
-
-<div style="margin:8px 0;padding:8px;border:1px solid #e1e4e8;border-radius:6px;">
-  <button style="font-size:12px;padding:4px 8px;margin-bottom:6px;" onclick="(function(){const txt=`git clone https://github.com/Ashish8668/Design_Pattern.git\ncd Design_Pattern`;navigator.clipboard.writeText(txt).then(()=>{alert('Commands copied to clipboard');}).catch(()=>{alert('Copy failed — use the fallback code block below.');});})()">Copy</button>
-  <pre><code>git clone https://github.com/Ashish8668/Design_Pattern.git
-cd Design_Pattern</code></pre>
-</div>
-
 ```powershell
 git clone https://github.com/Ashish8668/Design_Pattern.git
 cd Design_Pattern
@@ -38,24 +30,12 @@ If you're working from the existing local folder (`DP_Project`), skip cloning an
 **Compile & Run (PowerShell / Terminal)**
 From the project root where the `.java` files are located, run:
 
-<div style="margin:8px 0;padding:8px;border:1px solid #e1e4e8;border-radius:6px;">
-  <button style="font-size:12px;padding:4px 8px;margin-bottom:6px;" onclick="(function(){const txt=`javac *.java\njava SmartHomeApp`;navigator.clipboard.writeText(txt).then(()=>{alert('Commands copied to clipboard');}).catch(()=>{alert('Copy failed — use the fallback code block below.');});})()">Copy</button>
-  <pre><code>javac *.java
-java SmartHomeApp</code></pre>
-</div>
-
 ```powershell
 javac *.java
 java SmartHomeApp
 ```
 
 If you prefer to compile into an output directory first:
-
-<div style="margin:8px 0;padding:8px;border:1px solid #e1e4e8;border-radius:6px;">
-  <button style="font-size:12px;padding:4px 8px;margin-bottom:6px;" onclick="(function(){const txt=`javac -d out *.java\njava -cp out SmartHomeApp`;navigator.clipboard.writeText(txt).then(()=>{alert('Commands copied to clipboard');}).catch(()=>{alert('Copy failed — use the fallback code block below.');});})()">Copy</button>
-  <pre><code>javac -d out *.java
-java -cp out SmartHomeApp</code></pre>
-</div>
 
 ```powershell
 javac -d out *.java
